@@ -13,7 +13,7 @@ html, html a, body { -webkit-font-smoothing: antialiased; }
 
 body { font-family: Roboto, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif; font-size: 14px; background-color: #f6f7fb; color: #888da8; line-height: 1.5; letter-spacing: 0.2px; overflow-x: hidden; }
 
-h1, h2, h3, h4, h5, h6 { color: #515365; font-family: Roboto, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif; letter-spacing: 0.5px; font-weight: normal; line-height: 1.5; }
+h1, h2, h3, h4, h5, h6 { color: #000000; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif; letter-spacing: 0.5px; font-weight: normal; line-height: 1.5; }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-family: Roboto, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
 
@@ -31,7 +31,7 @@ h5 { font-size: 16px; }
 
 h6 { font-size: 12px; }
 
-p { font-family: Roboto, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif; color: #888da8; line-height: 1.9; }
+p { font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif; color: #000000; line-height: 1.9; font-size: 18px }
 
 .lead { font-size: 18px; }
 
@@ -1908,15 +1908,15 @@ iframe { border: 0; }
 
 .header-primary .side-nav .side-nav-inner .side-nav-logo a .logo-white { display: block; }
 
-.header-info .header { background-color: #0f9aee; color: #ffffff; border-color: #0f9aee; }
+.header-info .header { background-color: #1e8334; color: #ffffff; border-color: #1e8334; }
 
 .header-info .header .header-container ul > li > a { color: #ededed; }
 
 .header-info .header .header-container ul > li > a:hover, .header-info .header .header-container ul > li > a:focus { color: #ffffff; }
 
-.header-info .header .header-container ul .user-profile { border-color: #0f9aee; }
+.header-info .header .header-container ul .user-profile { border-color: #1e8334; }
 
-.header-info .side-nav .side-nav-inner .side-nav-logo { background-color: #0f9aee; border-color: #0f9aee; }
+.header-info .side-nav .side-nav-inner .side-nav-logo { background-color: #1e8334; border-color: #1e8334; }
 
 .header-info .side-nav .side-nav-inner .side-nav-logo a .logo-dark { display: none; }
 
@@ -2936,7 +2936,9 @@ label.success { color: #37c936; }
 
 .portlet .show .dropdown-menu { transform: scale(1, 1); -webkit-transform: scale(1, 1); -moz-transform: scale(1, 1); -o-transform: scale(1, 1); -ms-transform: scale(1, 1); }
 
-.card-title { font-family: Roboto, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif; color: #515365; margin-top: 0px; margin-bottom: 15px; }
+.card-title { font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif; color: #207426; margin-top: 0px; margin-bottom: 15px; }
+
+.card-image-title {color: #207426}
 
 .card-media { position: relative; }
 
@@ -3189,11 +3191,11 @@ a.card:hover, a.card:focus { -webkit-box-shadow: 0 7px 15px rgba(0, 0, 0, 0.075)
 
 .pill-success .nav-pills > li > a.active.nav-link { color: #ffffff; border-color: #37c936; }
 
-.pill-info .nav-pills > li > a.active { border-color: #0f9aee; background-color: #0f9aee; border: 1px solid #0f9aee; }
+.pill-info .nav-pills > li > a.active { border-color: #1e8334; background-color: #1e8334; border: 1px solid #1e8334; }
 
-.pill-info .nav-pills > li > a.active:hover, .pill-info .nav-pills > li > a.active:focus { border-color: #0f9aee; background-color: #0f9aee; border: 1px solid #0f9aee; }
+.pill-info .nav-pills > li > a.active:hover, .pill-info .nav-pills > li > a.active:focus { border-color: #1e8334; background-color: #1e8334; border: 1px solid #1e8334; }
 
-.pill-info .nav-pills > li > a.active.nav-link { color: #ffffff; border-color: #0f9aee; }
+.pill-info .nav-pills > li > a.active.nav-link { color: #ffffff; border-color: #1e8334; }
 
 .pill-warning .nav-pills > li > a.active { border-color: #ffcc00; background-color: #ffcc00; border: 1px solid #ffcc00; }
 
