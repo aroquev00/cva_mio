@@ -31,7 +31,7 @@ h5 { font-size: 16px; }
 
 h6 { font-size: 12px; }
 
-p { font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif; color: #000000; line-height: 1.9; font-size: 18px }
+p, li { font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif; color: #000000; line-height: 1.9; font-size: 18px }
 
 .lead { font-size: 18px; }
 
@@ -3213,7 +3213,7 @@ a.card:hover, a.card:focus { -webkit-box-shadow: 0 7px 15px rgba(0, 0, 0, 0.075)
 
 .accordion .panel-default { background-color: #ffffff; margin-bottom: 15px; border: 1px solid #e6ecf5; }
 
-.accordion .panel-default > .panel-heading { color: #515365; background-color: #ffffff; border-color: #e6ecf5; }
+.accordion .panel-default > .panel-heading { color: #515365; background-color: #72ac25d2; border-color: #e6ecf5; }
 
 .accordion .panel-default > .panel-heading + .panel-collapse > .panel-body { border-top-color: #e6ecf5; padding: 10px 20px 20px 20px; }
 
@@ -3223,7 +3223,7 @@ a.card:hover, a.card:focus { -webkit-box-shadow: 0 7px 15px rgba(0, 0, 0, 0.075)
 
 .accordion .panel-title { margin: 0px; }
 
-.accordion .panel-title > a { padding: 20px; display: block; color: #515365; }
+.accordion .panel-title > a { padding: 20px; display: block; color: #ffffff; }
 
 .accordion .panel-title > a .icon { float: right; margin-top: 5px; transform: rotate(0deg); -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -o-transform: rotate(0deg); -ms-transform: rotate(0deg); transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; }
 
