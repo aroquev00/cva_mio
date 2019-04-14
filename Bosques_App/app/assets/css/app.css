@@ -43,6 +43,8 @@ ul { margin-bottom: 0px; }
 
 a { color: #0f9aee; }
 
+.btn span {color: #000}
+
 a:hover, a:focus { text-decoration: none; color: #0c7bbe; }
 
 a:focus { outline: none; }
