@@ -17,9 +17,9 @@ $('input[name="pregunta_2"][type="button"]').on('click', function(event){
     let res_cor = $('input[name="respuesta"][type="checkbox"][value="correct2"]:checked').toArray().length;
     let res_incor = $('input[name="respuesta"][type="checkbox"][value="incorrect2"]:checked').toArray().length;
     if(res_incor > 0){
-        alert('Alguna respuesta incorrecta');
+        alert('Alguna respuesta es incorrecta');
     }else if(res_cor !== correctas && res_cor > 0){
-        alert('Existen más opciones');
+        alert('Existen más opciones correctas');
     }
     else if (res_cor == correctas){
         alert('¡Correcto!');
@@ -32,9 +32,9 @@ $('input[name="pregunta_3"][type="button"]').on('click', function(event){
     let res_cor = $('input[name="respuesta"][type="checkbox"][value="correct3"]:checked').toArray().length;
     let res_incor = $('input[name="respuesta"][type="checkbox"][value="incorrect3"]:checked').toArray().length;
     if(res_incor > 0){
-        alert('Alguna respuesta incorrecta. Analiza otra vez los lineamientos propuestos en esta actividad y de ser necesario lee nuevamente los lineamientos para el uso de parasitoides y depredadores que están en este tema.');
+        alert('Alguna respuesta es incorrecta. Analiza otra vez los lineamientos propuestos en esta actividad y de ser necesario lee nuevamente los lineamientos para el uso de parasitoides y depredadores que están en este tema.');
     }else if(res_cor !== correctas && res_cor > 0){
-        alert('Existen más opciones. Analiza otra vez los lineamientos propuestos en esta actividad y de ser necesario lee nuevamente los lineamientos para el uso de parasitoides y depredadores que están en este tema.');
+        alert('Existen más opciones correctas. Analiza otra vez los lineamientos propuestos en esta actividad y de ser necesario lee nuevamente los lineamientos para el uso de parasitoides y depredadores que están en este tema.');
     }
     else if (res_cor == correctas){
         alert('¡Muy bien!');
