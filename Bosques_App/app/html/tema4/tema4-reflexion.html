@@ -23,10 +23,12 @@
         <link href="../../assets/css/app.css" rel="stylesheet">
         <link href="../../assets/css/progress.css" rel="stylesheet">
         <link href="../../assets/css/progress-circle.css" rel="stylesheet">
+        <link href="../../assets/css/confetti.css" rel="stylesheet">
 
     </head>
 
     <body class="header-info side-nav-dark">
+        
         <div class="app">
             <div class="layout">
                 <!-- Side Nav START -->
@@ -234,6 +236,7 @@
                 <!-- Side Nav END -->
 
                 <!-- Page Container START -->
+                
                 <div class="page-container">
                     <!-- Header START -->
                     <div class="header navbar">
@@ -256,14 +259,16 @@
                         </div>
                     </div>
                     <!-- Header END -->
-
+                    
                       <!-- Content Wrapper START -->
                       <div class="main-content">
                             <div class="container-fluid">
-
+                                
 
                                 <!-- Your content goes here -->
                                 
+                                
+
                                 <div class ="row">
                                     <div class="col-lg-12">
                                         <div class="card">
@@ -318,7 +323,9 @@
                                         </div>
                                     </div>
                                 </div>
-
+                                <!--Confetti background START-->
+                                <canvas id="canvas"></canvas>
+                                <!--Confetti background END-->
                                 <div class="row">
                                     <div class="col text-center">
                                         <div class="btn-group">
@@ -331,11 +338,11 @@
                                         </div>
                                     </div>
                                 </div>
-
+                                
                             </div>
                       </div>
                       <!-- Content Wrapper END -->
-
+                      
                       <!-- Footer START -->
                     <footer class="content-footer">
                             <div class="footer">
@@ -358,8 +365,11 @@
 
                   </div>
                   <!-- Page Container END -->
+                  
                 </div>
+                
         </div>
+        
 
         <!-- build:js assets/js/vendor.js -->
         <!-- plugins js -->
@@ -383,9 +393,12 @@
         <!-- Aquí se inserta el porcentage del círculo de progreso como una fracción -->
         <script type="text/javascript">show(1)</script>
 
+        <script src="../../assets/js/confetti.js"></script>
+
         <!-- endbuild -->
 
         <!-- Insert your dependencies here -->
-
+        
     </body>
+    
 </html>
