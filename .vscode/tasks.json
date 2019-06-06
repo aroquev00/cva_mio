@@ -7,7 +7,7 @@
         {
             "label": "Sass Compile",
             "type": "shell",
-            "command": "node-sass Bosques_App/app/assets/scss/finished-text.scss finished-text.css",
+            "command": "node-sass Bosques_App/app/assets/scss/texto-reflexion2.scss texto-reflexion2.css",
             "group": "build"
         }
     ]
