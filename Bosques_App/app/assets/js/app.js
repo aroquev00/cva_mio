@@ -3,8 +3,6 @@
 (function ($) {
 	'use strict';
 	
-	/*
-	Side Nav Function is called from the side-nav.js file in the side-bar.html file used for the side bar.
 	// Side Nav
 	function sideNav() {
 		$('.side-nav .side-nav-menu li a').on('click', function(e) {
@@ -24,7 +22,6 @@
 			}
 		});
 	}	
-	*/
 	
 	// Side Nav Toogle
 	function sideNavToggle() {
@@ -170,7 +167,7 @@
 
 
 	function init() {
-		// here we would call the sideNav(); , but it is called in the side-nav.js file.
+		sideNav();
 		sideNavToggle();
 	    sidePanelToggle();
 	    chatToggle();
