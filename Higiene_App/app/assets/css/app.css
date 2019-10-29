@@ -17,7 +17,7 @@
 
 :root {
   /* Cambiar el valor de la variable según la temática del curso.*/
-  --theme-color: #1e8334;
+  --theme-color: #8126ab;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700|Roboto:300,400,500,700");
@@ -99,7 +99,7 @@ hr { border-top: 1px solid #e6ecf5; }
 
 .bg-primary { background-color: #7774e7 !important; }
 
-.bg-info { background-color: #40803E !important; }
+.bg-info { background-color: var(--theme-color) !important; }
 
 .bg-success { background-color: #37c936 !important; }
 
@@ -2904,7 +2904,7 @@ label.success { color: #37c936; }
 
 .tag-success { background-color: #37c936; color: #ffffff; }
 
-.tag-info { background-color: #40803E; color: #ffffff; }
+.tag-info { background-color: var(--theme-color); color: #ffffff; }
 
 .tag-warning { background-color: #ffcc00; color: #ffffff; }
 
