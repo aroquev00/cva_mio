@@ -3243,7 +3243,7 @@ a.card:hover, a.card:focus { -webkit-box-shadow: 0 7px 15px rgba(0, 0, 0, 0.075)
 
 .accordion .panel-default { background-color: #ffffff; margin-bottom: 15px; border: 1px solid #e6ecf5; }
 
-.accordion .panel-default > .panel-heading { color: #515365; background-color: #72ac25d2; border-color: #e6ecf5; }
+.accordion .panel-default > .panel-heading { color: #515365; background-color: var(--theme-color); border-color: #e6ecf5; }
 
 .accordion .panel-default > .panel-heading + .panel-collapse > .panel-body { border-top-color: #e6ecf5; padding: 10px 20px 20px 20px; }
 
