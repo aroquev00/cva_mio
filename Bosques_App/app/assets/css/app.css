@@ -3691,3 +3691,14 @@ glyphs.character-mapping { margin: 0 0 20px 0; padding: 20px 0 20px 30px; color:
 /*----------------------------
 --------- 2. Personalización ---------
 ----------------------------*/
+
+/*-- Para la barra de botones de avance en cada página --*/
+.btn-actual-page {
+  background-color: var(--theme-color);
+  border-color: var(--theme-color);
+  color: #ffffff;
+}
+
+.btn-actual-page span {
+  color: #ffffff;
+}
