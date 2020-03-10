@@ -3694,6 +3694,23 @@ glyphs.character-mapping { margin: 0 0 20px 0; padding: 20px 0 20px 30px; color:
 --------- 2. Personalización ---------
 ----------------------------*/
 
+/* Para cambiar el color de los botones de regresar en los modales */
+button.close {
+  color: #f00;
+}
+
+button.close:hover {
+  color: #f00;
+}
+
+.btn-secondary {
+  background-color: #f00;
+}
+
+.btn-secondary:hover {
+  background-color: #f00;
+}
+
 /*-- Para el carousel de librito de cursos de DP --*/
 .carousel-item{
   height: 80vh;
@@ -3750,6 +3767,7 @@ glyphs.character-mapping { margin: 0 0 20px 0; padding: 20px 0 20px 30px; color:
 
 /*-- Fin del carousel --*/
 
+
 /* Modulo 2 */
 
 .blogger img {
@@ -3795,3 +3813,4 @@ b.alertCorrect{
 .mrg-btm--50{
   margin-bottom: -50px;
 }
+
